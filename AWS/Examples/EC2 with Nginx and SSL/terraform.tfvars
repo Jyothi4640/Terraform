@@ -1,0 +1,7 @@
+aws-region        = "us-west-2"
+aws-profile       = "default"
+user-data-script  = "./scripts/spinup.sh"
+instance-ami      = "ami-0bc06212a56393ee1"
+instance-key-name = "vault"
+instance-tag-name = "Advanced-example-test-instance"
+iam-role-name     = "vault-role"
